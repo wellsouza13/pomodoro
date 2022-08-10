@@ -34,7 +34,7 @@ export function Home() {
   });
 
   function handleCreateNewCycle(data: NewCycleFormData) {
-    console.log(data);
+    console.log('teste',data);
     reset();
   }
 
